@@ -25,6 +25,7 @@ static NSString * const DEMO_UUID = @"DEMO_UUID";
 
 @implementation DeviceInfo
 
+//===============
 + (NSString *)getRandomUUID
 {
     return [NSUUID UUID].UUIDString;
